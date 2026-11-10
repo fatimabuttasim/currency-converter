@@ -1,5 +1,7 @@
 # Currency Converter
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A small command-line tool that converts an amount from one currency to another using live exchange rates from the [Frankfurter API](https://frankfurter.dev). The API is free and needs no API key.
 
 ## Features
@@ -18,6 +20,7 @@ currency-converter/
 ├── requirements.txt      # packages needed to run the program
 ├── requirements-dev.txt  # packages needed for testing and linting
 ├── .gitignore            # files to ignore
+├── LICENSE               # MIT License text
 └── README.md             # project description
 ```
 
@@ -98,6 +101,10 @@ A clean run ends with `Your code has been rated at 10.00/10`.
 
 - GitHub: https://github.com/fatimabuttasim
 - LinkedIn: https://linkedin.com/in/fatima-asim-69291543a
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
