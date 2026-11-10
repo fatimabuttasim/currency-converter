@@ -46,6 +46,9 @@ if __name__ == "__main__":
             print("Server too slow, please try again later.")
         except requests.exceptions.ConnectionError:
             print("Network error. Please check your internet connection.")
+        except requests.exceptions.RequestException:
+            print("An error occurred while fetching exchange rates."
+            " Please try again.")
         else:
             result = convert(value, exchange_rate)
             print(f"1 {base_currency} = {exchange_rate:.6f} "
