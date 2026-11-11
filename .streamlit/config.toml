@@ -1,0 +1,12 @@
+# Streamlit theme for the Currency Converter app.
+# Colours are hex codes: change any value to restyle the app.
+
+[theme]
+base = "light"
+primaryColor = "#0F766E"               # buttons, focus outlines, highlights (teal)
+backgroundColor = "#F8FAFC"            # main page background
+secondaryBackgroundColor = "#E2E8F0"   # input boxes and widgets
+textColor = "#0F172A"                  # all text
+
+[browser]
+gatherUsageStats = false

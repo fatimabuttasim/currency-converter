@@ -5,3 +5,4 @@ venv/
 .vscode/
 desktop.ini
 Thumbs.db
+.streamlit/secrets.toml
