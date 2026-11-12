@@ -8,6 +8,7 @@ import math
 import requests
 
 FIXED_URL = "https://api.frankfurter.dev/v2/rate/"
+CURRENCY_URL = "https://api.frankfurter.dev/v2/currencies"
 TIMEOUT_SECONDS = 5
 
 
@@ -26,6 +27,18 @@ def convert(amount, rate):
     Return the amount converted into the target currency using the rate.
     """
     return amount * rate
+
+
+def find_currency_codes(seconds):
+    """
+    Return a list containing currency codes.
+    """
+    response = requests.get(CURRENCY_URL, timeout=seconds)
+    currencies_list = response.json()
+    currency_codes = []
+    for currency in currencies_list:
+        currency_codes.append(currency["iso_code"])
+    return currency_codes
 
 
 if __name__ == "__main__":

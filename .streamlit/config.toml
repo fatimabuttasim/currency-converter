@@ -3,10 +3,11 @@
 
 [theme]
 base = "light"
-primaryColor = "#0F766E"               # buttons, focus outlines, highlights (teal)
-backgroundColor = "#F8FAFC"            # main page background
-secondaryBackgroundColor = "#E2E8F0"   # input boxes and widgets
-textColor = "#0F172A"                  # all text
+primaryColor = "#800020"               # burgundy buttons
+backgroundColor = "#F3E6DC"            # nude page
+secondaryBackgroundColor = "#FBF5F0"   # cream inputs
+textColor = "#2A1215"                  # dark maroon text
+font = "sans serif"
 
 [browser]
 gatherUsageStats = false
