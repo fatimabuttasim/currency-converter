@@ -4,6 +4,14 @@
 
 A small command-line tool and a web app that convert an amount from one currency to another using live exchange rates from the [Frankfurter API](https://frankfurter.dev). The API is free and needs no API key.
 
+## Live Demo
+
+Try the web app in your browser, no installation needed:
+
+[currency-converter](https://fatima-currency-converter.streamlit.app/)
+
+The free app may sleep when it hasn’t been used, if so, just click the button to wake it up.
+
 ## Features
 
 - Fetches the live exchange rate between two currencies
